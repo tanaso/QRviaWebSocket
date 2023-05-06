@@ -49,6 +49,5 @@ function tick() {
             outputMessage.hidden = false;
             outputData.parentElement.hidden = true;
         }
-    }
     requestAnimationFrame(tick);
 }
